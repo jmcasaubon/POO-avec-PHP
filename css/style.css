@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.tableau {
+    margin: .5em 0 ;
+    border: 2px solid black ;
+    border-collapse: collapse;
+}
+
+.tableau th,td,tr {
+    border: 1px solid black ;
+    text-align: center;
+    padding: .2em;
+}
+
+.tableau th {
+    border-bottom: 2px solid black ;
+    text-align: center;
+    padding: .2em;
+}
+
+.texte {
+    text-align: justify;
+}
+
+.affiche img {
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.vignette img {
+    max-width: 60px;
+    max-height: 80px;
+}
